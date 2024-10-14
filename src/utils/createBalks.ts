@@ -1,5 +1,5 @@
 import { Euler, Vector3 } from "three";
-import { BalkInstance } from "../components/CanopyGroup";
+import { BalkInstance } from "../components/CanopyScene";
 
 export const EPSILON = 1e-6; // Tolerance for floating-point comparisons
 const MIN_DIMENSION = 0.5;

@@ -1,11 +1,11 @@
 import GroundPlane from "./components/GroundPlane";
 import CanvasContainer from "./components/CanvasContainer";
 import Skybox from "./components/Skybox";
-import { CanopyGroup } from "./components/CanopyGroup";
 import AsideControls from "./components/AsideControls";
 import { AssetsProvider } from "./context/AssetsContext/AssetsProvider";
 import { Suspense } from "react";
 import { AsideControlsGui } from "./components/AsideControlsGui";
+import { CanopyScene } from "./components/CanopyScene";
 
 function App() {
   return (
@@ -23,10 +23,9 @@ function App() {
           <GroundPlane />
           <Suspense>
             <AssetsProvider>
-              <CanopyGroup />
+              <CanopyScene />
             </AssetsProvider>
           </Suspense>
-          <axesHelper args={[5]} />
         </CanvasContainer>
       </div>
       <AsideControlsGui />

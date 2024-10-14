@@ -22,7 +22,7 @@ export interface BalkInstance {
 
 export type CornerInstance = BalkInstance;
 
-export function CanopyGroup() {
+export function CanopyScene() {
   const {
     verticalBalk,
     horizontalBalk,

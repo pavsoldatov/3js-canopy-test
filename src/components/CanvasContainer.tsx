@@ -12,7 +12,7 @@ function CanvasContainer({ children, ...rest }: CanvasContainerProps) {
     <Canvas
       gl={{ antialias: true, pixelRatio: 2.0 }}
       shadows={true}
-      camera={{ position: [7, 6, 8], fov: 60, near: 0.1, far: 1000 }}
+      camera={{ position: [-1.2, 3.6, 6.2], fov: 60, near: 0.1, far: 1000 }}
       {...rest}
     >
       {children}
