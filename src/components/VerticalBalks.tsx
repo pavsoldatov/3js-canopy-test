@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { Instances, Instance } from "@react-three/drei";
 import { InstancedMesh, BufferGeometry } from "three";
-import { BalkInstance } from "./CanopyGroup";
+import { BalkInstance } from "./CanopyScene";
 import { Woods } from "../context/AssetsContext/AssetsContext";
 import { useMaterialStore } from "../store/materialStore";
 
